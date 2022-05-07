@@ -7,9 +7,6 @@ public class FurnitureOrder implements FurnitureOrderInterface {
     
 	private final HashMap<Furniture, Integer> furnitures;
 
-    /**
-     * Initialize a new mapping of Furniture types to order quantities.
-     */
     FurnitureOrder() {
         furnitures = new HashMap<Furniture, Integer>();
     }
